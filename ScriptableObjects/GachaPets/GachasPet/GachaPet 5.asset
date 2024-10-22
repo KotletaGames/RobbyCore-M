@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9af248b84d06383408f1f8850b14421b, type: 3}
+  m_Name: GachaPet 5
+  m_EditorClassIdentifier: 
+  <Pets>k__BackingField:
+  - <Pet>k__BackingField: {fileID: 11400000, guid: a811520d026f7ef41be44c6999ce5080,
+      type: 2}
+    <Ratio>k__BackingField: 0.45
+  - <Pet>k__BackingField: {fileID: 11400000, guid: 6b7e207cabae8d645adb380b646d2ad5,
+      type: 2}
+    <Ratio>k__BackingField: 0.233
+  - <Pet>k__BackingField: {fileID: 11400000, guid: cfa0c14b84554824bb2ccdb06d202010,
+      type: 2}
+    <Ratio>k__BackingField: 0.2
+  - <Pet>k__BackingField: {fileID: 11400000, guid: bd6d7c578b1276c49951e3d17d1964a9,
+      type: 2}
+    <Ratio>k__BackingField: 0.117
+  <CostUnlockingDatas>k__BackingField:
+  - <Item>k__BackingField:
+      <Id>k__BackingField: 1
+      <Icon>k__BackingField: {fileID: 21300000, guid: b5ae8e0a0150d4ece84efa88b23f7dd8,
+        type: 3}
+    <Count>k__BackingField: 39366
+  <StorePrefab>k__BackingField: {fileID: 1647740693950940178, guid: 1518e03378a9458489de8f92b8bfb438,
+    type: 3}

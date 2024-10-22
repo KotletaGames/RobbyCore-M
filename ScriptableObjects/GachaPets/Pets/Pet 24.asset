@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ff1cdd162544b4d9a13cb1dd7751f7, type: 3}
+  m_Name: Pet 24
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: 24
+  <Modifier>k__BackingField: 15000
+  <Icon>k__BackingField: {fileID: 21300000, guid: c152d366d5cbcbc4ba7a7ca1af1dfcf3,
+    type: 3}
+  <Prefab>k__BackingField: {fileID: 8746694650436108856, guid: 3df65eb2b9aa69f459ba479e5cbbfc3f,
+    type: 3}
