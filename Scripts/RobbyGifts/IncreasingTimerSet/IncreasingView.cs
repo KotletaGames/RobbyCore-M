@@ -20,6 +20,7 @@ namespace KotletaGames.RobbyGiftsModule
 
         private void OnEnable()
         {
+            _open.interactable = false;
             _open.onClick.AddListener(OnNotify);
         }
 
