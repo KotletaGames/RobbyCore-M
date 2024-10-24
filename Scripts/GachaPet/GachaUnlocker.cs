@@ -57,6 +57,8 @@ namespace KotletaGames.RobbyGachaPetModule
             _petRatio = petRatio;
 
             _inventory.Add(_petRatio.Pet);
+
+            GachaPetStatic.RegisterOpening();
         }
 
         private void OnClickToOpen()
@@ -79,6 +81,8 @@ namespace KotletaGames.RobbyGachaPetModule
 
                     _gachaAudio.PlayUnlockNewPet();
                     _unlockerView.ShowFinal();
+
+                    GachaPetStatic.UnregisterOpening();
                 });
         }
 

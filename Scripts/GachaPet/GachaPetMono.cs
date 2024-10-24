@@ -111,6 +111,9 @@ namespace KotletaGames.RobbyGachaPetModule
             if (HasResourceEnough() == false)
                 return;
 
+            if (GachaPetStatic.IsOpeningNow == true)
+                return;
+
             Buy(_gachaPetConfig);
             OnUpdateView();
         }
